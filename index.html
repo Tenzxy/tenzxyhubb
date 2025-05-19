@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TenzxyHub</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="Image/logo.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="logo"><strong>Tenzxy</strong></div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p>Welcome To Tenzxy</p>
+      <h1>Hi I am <span>Vuth AKA Tenzxy</span><br />Web Developer</h1>
+      <p>
+        Hi! I'm a developer and Roblox game maker. My featured project is Angkor Voice Chat, and I've also helped create two games for other developers.
+      </p>
+      <a class="btn" href="#about">More About Me</a>
+    </div>
+    <div class="hero-img">
+      <img src="Image/tenzxyboi.png" alt="Tenzxy" style="border-radius: 10px;" />
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="max-width: 700px; margin: auto; text-align: center;">
+      I am a professional web developer with a passion for clean code and creative design. I specialize in building modern, responsive websites and applications.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>What I Do</h2>
+    <div class="service-boxes">
+      <div class="service-box">UX/UI Design</div>
+      <div class="service-box">Creative Design</div>
+      <div class="service-box">Web Design</div>
+      <div class="service-box">Graphic Designer</div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item"><img src="Image/sw.jpg" alt="Portfolio 1"></div>
+      <div class="portfolio-item"><img src="Image/duo.png" alt="Portfolio 2"></div>
+      <div class="portfolio-item"><img src="Image/cute.jpg" alt="Portfolio 3"></div>
+      <div class="portfolio-item"><img src="Image/tenzxy.jpg" alt="Portfolio 4"></div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>
+      Feel free to get in touch via email or follow me on social media platforms.
+    </p>
+  </section>
+
+  <section id="contact-form" style="padding: 60px 40px;">
+    <div class="form-card1">
+      <div class="form-card2">
+        <form class="form" action="https://api.web3forms.com/submit" method="POST">
+          <p class="form-heading">Get In Touch</p>
+
+          <input type="hidden" name="access_key" value="dd0a818f-c299-46a3-b22e-27815f899bd1" />
+
+          <div class="form-field">
+            <input required name="name" placeholder="Name" class="input-field" type="text" aria-label="Name" />
+          </div>
+
+          <div class="form-field">
+            <input required name="email" placeholder="Email" class="input-field" type="email" aria-label="Email" />
+          </div>
+          
+          <div class="form-field">
+            <textarea required name="message" placeholder="Message" cols="30" rows="3" class="input-field" aria-label="Message"></textarea>
+          </div>
+
+          <button class="sendMessage-btn" type="submit">Send Message</button>
+          <span class="statusTxt" style="display:none;"></span>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
